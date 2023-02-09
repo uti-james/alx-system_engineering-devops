@@ -1,3 +1,3 @@
 #!/bin/bash
-filename="/tmp/iamafile"
-filetype=$(file "$filename")
+filetype=$(file /tmp/iamafile | awk '{print $2}')
+

@@ -1,2 +1,2 @@
-#!/bini/bash
+#!/bin/bash
 find . -type f -name ".gif" -exec sh -c 'echo "${0%.}"' {} ; | sort -f -d
